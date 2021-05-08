@@ -22,7 +22,7 @@ class LeadsTest extends TestCase
      */
     public function testLeadSaving()
     {
-        $response = $this->post('/api/lead', /* ... */);
+        $response = $this->post('/api/', /* ... */);
 
         $response->assertStatus(/* ... */);
 
